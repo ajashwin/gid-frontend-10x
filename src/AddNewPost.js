@@ -14,7 +14,7 @@ const AddNewPost = () => {
 
         
 
-        fetch("http://localhost:8080/api" , {
+        fetch("https://gid-backend-10x.onrender.com/api" , {
 
                 method: "POST",
                 body: formdata // when u r sending form data, headers will be sent automatically
